@@ -12,47 +12,7 @@ axios.interceptors.response.use((response) => {
 export let getSliders = () => {
   return axios.get('/nba/sliders');
 };
-// 获取热门图书接口
-export let getHotBook = () => {
-  return axios.get('/hot');
-};
 
-// 获取全部图书
-export let getBook = () => {
-  return axios.get('/book');
-};
-
-// 删除某一本图书
-export let removeBook = (id) => {
-  return axios.delete(`/book?id=${id}`);
-};
-
-// 获取谋一本书
-export let findOneBook = (id) => {
-  return axios.get(`/book?id=${id}`);
-};
-
-// 修改图书
-/**
- *
- * @param id 编号
- * @param data 请求体参数
- * @returns {AxiosPromise<any>}
- */
-export let updateBook = (id, data) => {
-  return axios.put(`/book?id=${id}`, data);
-};
-
-export let addBook = (data) => {
-  return axios.post('/book', data);
-};
-
-export let getAll = () => {
-  return axios.all([getSliders(), getHotBook()]);
-};
-export let query = (data) => {
-  return axios.post('/animal-hospital/query', data);
-}
 /**
  * 根据偏移量返回对应的数据
  * @returns {AxiosPromise<any>}
