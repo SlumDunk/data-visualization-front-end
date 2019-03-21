@@ -1,0 +1,42 @@
+[
+  {
+    "city": "Deesa",
+    "beautifulRatio": 30
+  },
+  {
+    "city": "Patan",
+    "beautifulRatio": 20
+  },
+  {
+    "city": "Ahmedabad",
+    "beautifulRatio": 15
+  },
+  {
+    "city": "Bhabhar",
+    "beautifulRatio": 35
+  },
+  {
+    "city": "BHakhasar",
+    "beautifulRatio": 50
+  },
+  {
+    "city": "Deesa2",
+    "beautifulRatio": 30
+  },
+  {
+    "city": "Patan2",
+    "beautifulRatio": 20
+  },
+  {
+    "city": "Ahmedabad2",
+    "beautifulRatio": 15
+  },
+  {
+    "city": "Bhabhar2",
+    "beautifulRatio": 35
+  },
+  {
+    "city": "BHakhasar2",
+    "beautifulRatio": 50
+  }
+]
